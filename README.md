@@ -12,5 +12,8 @@ Please feel free to contact me with any questions via email or LinkedIn.
 
 [CODE] - https://github.com/Philip-Pione/Accuracy_Tracker    
 [LIVE] - https://philip-pione.github.io/Accuracy_Tracker/
+
+<br>
 Role: Sole author
-Tools used: Bootstrap, CSS, HTML, Javascript, Flexbox.
+<br>
+Tools used: Bootstrap, CSS, HTML, Javascript, Flexbox, GitHub, GitBash, Local storage.
