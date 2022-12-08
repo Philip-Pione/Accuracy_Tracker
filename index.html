@@ -23,9 +23,7 @@
         class="container d-flex flex-column border-darkrounded rounded color-overlay mt-5 text-white ">
         <div class="row d-flex justify-content-center bg-white rounded opacity-75">
           <h1 class="m-3 text-center text-dark fw-light ">Accuracy Tracker</h1>
-          <p class="text-dark">This aggregator is open to precision shooters and hunters. The crowdsourced data will
-            allow you to quickly pair your rifle with the factory load that works best, without spending hundreds of
-            dollars and hours testing all the offerings from different manufacturers.</p>
+          <p class="text-dark">This app can be used by hunters and precision shooters to catalogue their accuracy results with different ammunition. Submitted results rely on the honor system and are recorded using the best 3 shot grouping at 100 yards. A novelty top shot masthead keeps track of the most accurate combo for bragging rights. Ideally, users can use the data to make an informed choice on future purchases, saving them the time and expense of testing multiple manufacturers.</p>
         </div>
 
         <div class="row">
@@ -95,7 +93,18 @@
               aria-pressed="true">Submit</button>
           </div>
         </div>
+        <br>
+        <div class="">
+          <h3>The Best MOA was achieved by</h3>
+          <div id="table">
+            <table class="table table-dark table-striped-columns table-hover">
+              <tbody id="topMOA">
+                
+              </tbody>
+            </table>
 
+          </div>
+        </div>
 
 
         <div id="alertDiv" class="alert alert-white" role="alert"></div>
@@ -131,8 +140,7 @@
 
   </div>
 
-  <script src="./assets/scripts/taskManager.js"></script>
+  <script src="./assets/scripts/shotEntry.js"></script>
   <script src="./assets/scripts/index.js"></script>
 </body>
-
 </html>
